@@ -6,7 +6,7 @@ import numpy as np
 app = Flask(_name_)
 '''@app.route('/')
 def check():
-    return "Welcome to SRGEC"
+    return "Welcome to NITP"
 app.run()'''
 #First let's read the pickle file
 with open('Final_Model.pkl','rb') as f:
